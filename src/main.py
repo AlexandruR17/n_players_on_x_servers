@@ -20,9 +20,9 @@ def server_update():
     print ("Server stats:")
     for server, players in server_stats.items():
         if players>=15:
-            print(f"Hostname: {server} | Players: {players}/{slots} | Ping {random.randint(1, 50)} ms")
+            print(f"Hostname: {server} | Players: {players}/{slots} | Ping {random.randint(20, 50)} ms")
         else:
-            print(f"Hostname: {server} | Players: {players}/{slots} | Ping: {random.randint(20, 50)} ms")
+            print(f"Hostname: {server} | Players: {players}/{slots} | Ping: {random.randint(1, 50)} ms")
     print ("-------------------------------------------------------------------------------")
 
 
